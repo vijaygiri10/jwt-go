@@ -132,3 +132,7 @@ func verifyNbf(nbf int64, now int64, required bool) bool {
 	}
 	return now >= nbf
 }
+
+func test() string {
+return "hello Test"
+}

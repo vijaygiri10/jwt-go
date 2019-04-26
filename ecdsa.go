@@ -147,6 +147,6 @@ func (m *SigningMethodECDSA) Sign(signingString string, key interface{}) (string
 	}
 }
 
-func test() string {
+func vijayTest() string {
 	return "hello"
 }

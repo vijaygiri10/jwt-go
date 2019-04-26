@@ -146,3 +146,7 @@ func (m *SigningMethodECDSA) Sign(signingString string, key interface{}) (string
 		return "", err
 	}
 }
+
+func test() string {
+	return "hello"
+}
